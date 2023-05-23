@@ -3,17 +3,109 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="viewport"
+      content="Primi passi operativi per creare un modello
+    di pagina HTML per un post. Scopri come iniziare in modo facile."
+    />
+    <title>Sviluppo di una pagina web</title>
   </head>
   <body>
-    <h1>table example</h1>
-    <table>
-      <tr>
-        <td>uno</td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
+    <div class="container">
+      <header>
+        <img src="logo.svg" alt="logo epicode" height="50" />
+        <h1>Epicode il blog dei developer</h1>
+      </header>
+      <nav>
+        <ul id="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Articoli</a></li>
+          <li><a href="#">Lavora con noi</a></li>
+        </ul>
+      </nav>
+      <main>
+        <p>
+          Come creare un tamplate per i post di Mario Rossi - Pubblicato il
+          25-10-2020
+        </p>
+      </main>
+      <section>
+        <p>
+          La prima cosa da fare è suddividere in blocchi logici la pagina,
+          identificando le parti comuni da applicare a tutte le pagine
+        </p>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+          <li>Contenuti di intestazione del tag &#60 headere &#62 </li>
+          <li>Contenuti centrali variabili del tag &#60 main &#62 &#40 corpo principale &#41</li>
+          <li>Contenuti di fine pagina comuni da inserire nel tag &#60 footer &#62</li>
+        </ul>
+        <p>Formattazione codice:</p>
+        <p>Il testo delll'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò sarannno:
+  
+        </p>
+        <ol>
+          <li>Progettare un markup assegnando a ogni specifico testo il tag appropriato</li>
+          <li>Scrivere L'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+          <li>Aprire gli stili CSS</li>
+        </ol>
+        <p>L'applicazione e gli stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale</p>
+
+        <table>
+          <caption>Diffusione dei CSS</caption>
+          <tr>
+          <th>Anno</th>
+          <th>% di Utilizzo</th>
+          <th>Supporto browser</th> 
+           </tr>
+           <tr>
+            <td>2000</td>
+            <td>20%</td>
+            <td>17%</td>
+           </tr>
+           <tr>
+            <td>2002</td>
+            <td>35%</td>
+            <td>22%</td>
+           </tr>
+           <tr>
+            <td>2004</td>
+            <td>45%</td>
+            <td>42%</td>
+           </tr>
+           <tr>
+            <td>2008</td>
+            <td>80%</td>
+            <td>51%</td>
+           </tr>
+           <tr>
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+           </tr>
+        </table>
+        <p>Un test di validazione potrà essere fatto tramite il tool online - <a href=""> </a> - dedicato allo scopo. Una volta ottimizzato il tutto, avremo realizzato il nostro obbiettivo ed essere stati dei veri developers come loro:</p>
+        <video width="320" height="240" controls>
+          <source src="movie.mp4" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+        </section>
+
+      <section></section>
+      <section></section>
+      <aside>
+        <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla newsletter:</p>
+        <form name="modulo">
+          Email:<br />
+        <input type="text" name="email">   <br/>
+          <input type="button" value="iscriviti" onClick="Email()">
+          
+          </form>
+      </aside>
+      <footer>
+      <p></p>
+      </footer>
+    </div>
   </body>
 </html>
